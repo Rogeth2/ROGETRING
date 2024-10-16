@@ -1,0 +1,35 @@
+body {
+   background-color: hsl(212, 98%, 34%);
+   color: aliceblue;
+   font-family: "Nerko One", cursive;
+   font-size: 25px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 800px;
+   margin: 1px;
+}
+
+button {
+    background-color:rgb(236, 236, 108);
+    color:hsl(212, 98%, 34%);
+    font-family: "Nerko One", cursive;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+max-width: 80%;
+}
+
